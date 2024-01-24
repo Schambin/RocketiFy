@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #0F0D13;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cardBox{
+    display: flex;
+    gap: 3.2rem;
+    margin: auto;
+
+    border-radius: 1rem;
+    
+    
+}
+
+/* Card Um */
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.8rem;
+    
+    padding: 3.84rem;
+
+    border-radius: .9rem;
+    background-color: #2A2141;;
+}
+
+.songBannerOne{
+    border-radius: .6rem;
+    
+    max-width: 19.65rem;
+    max-height: 19.65rem;
+}
+
+.cardText{
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+}
+
+#paraOne{
+    color: #E1E1E6;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+#paraTwo{
+    color: #e1e1e6b4;
+
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.cardSkipPause{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.cardSkipPause img:hover{
+    cursor: pointer;
+    border: 5px solid #e1e1e600;
+    background-color: #e1e1e60f;
+    border-radius: 55px;
+}
+
+.cardSongProgress{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: .9rem;
+}
+
+progress{
+    width: 100%;
+    height: .6rem;
+    appearance: none;
+}
+
+progress::-webkit-progress-value{
+    background-color: #E1E1E6;
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-bar{
+    background-color: #e1e1e63f;
+    border-radius: 5px;
+}
+
+.songTime{
+    display: flex;
+    justify-content: space-between;
+
+    color: #e1e1e6b4;
+
+    font-size: 1.4rem;
+    line-height: 160%;
+}
+
+.secondList{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+/* Card Dois e Três */
+
+.cardTwo,
+.cardThree{
+    background: #2A2141;
+    padding: 2.81rem;
+    border-radius: .9rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.81rem;
+}
+
+.bannerText{
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+.songBannerTwo{
+    border-radius: .6rem;
+
+    max-width: 8.4rem;
+    max-height: 8.4rem;
+}
